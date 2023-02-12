@@ -1,6 +1,4 @@
-# docker-spcn-02
- 
-# สร้าง container template
+# docker-spcn-02 สร้าง container template
 ## ทบทวนการสร้าง docker node on proxmox
 
 - ปรับ Timezone
