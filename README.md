@@ -38,6 +38,8 @@ docker --version
 ```
 ```shell
 sudo docker run hello-world
+```
+```shell
 docker ps -a
 ```
 ```shell
