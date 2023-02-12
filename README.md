@@ -59,4 +59,7 @@ docker system prune -a
 - Convert to template
 - Clone from template
 - re-configure for new node
+```shell
+hostnamectl set-hostname node002
+```
 - 
