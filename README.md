@@ -1,6 +1,13 @@
 # docker-spcn-02 สร้าง container template
 ## ทบทวนการสร้าง docker node on proxmox
 - create Container Template (ubuntu22.04)
+- console guest and Login
+- check ip
+```shell
+ip a
+```
+- vsCode remote to guest
+- ssh with key authentication
 
 - ปรับ Timezone
 ```shell
