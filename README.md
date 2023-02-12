@@ -8,6 +8,7 @@ ip a
 ```
 - vsCode remote to guest
 - ssh with key authentication
+- vsCode extenstion: docker, github, wakatime
 
 - ปรับ Timezone
 ```shell
