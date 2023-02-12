@@ -1,5 +1,6 @@
 # docker-spcn-02 สร้าง container template
 ## ทบทวนการสร้าง docker node on proxmox
+- create Container Template (ubuntu22.04)
 
 - ปรับ Timezone
 ```shell
