@@ -2,9 +2,9 @@
  
 ## ทบทวนการสร้าง docker node on proxmox
 - สร้าง container template
-- ปรับ Timexone
+- ปรับ Timezone
 ```shell
-timedatctl set-timezone Asia/bangkok
+timedatctl set-timezone Asia/Bangkok
 ```
 - update packet repository
 ```shell
@@ -42,3 +42,4 @@ docker rmi hello-world
 - Convert to template
 - Clone from template
 - re-configure for new node
+- 
