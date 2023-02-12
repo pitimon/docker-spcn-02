@@ -39,3 +39,6 @@ docker ps -a
 docker images
 docker rmi hello-world
 ```
+- Convert to template
+- Clone from template
+- re-configure for new node
