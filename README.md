@@ -3,11 +3,11 @@
 
 - ปรับ Timezone
 ```shell
-timedatctl set-timezone Asia/Bangkok
+timedatectl set-timezone Asia/Bangkok
 ```
 - update packet repository
 ```shell
-apt update ; apt uograde -y
+apt update ; apt upgrade -y
 ```
 - Install docker
 [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
