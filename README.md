@@ -38,7 +38,7 @@ docker --version
 sudo docker run hello-world
 docker ps -a
 docker images
-docker rmi hello-world
+docker system prune -a
 ```
 
 - Convert to template
