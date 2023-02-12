@@ -47,7 +47,7 @@ apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docke
 docker --version
 ```
 ```shell
-sudo docker run hello-world
+docker run hello-world
 ```
 ```shell
 docker ps -a
@@ -55,12 +55,17 @@ docker ps -a
 ```shell
 docker images
 docker system prune -a
+init 0
 ```
 
 - Convert to template
 - Clone from template
-- re-configure for new node
+- Verify service on new guest 
 ```shell
-hostnamectl set-hostname node002
+date
+docker --version
+docker run hello-world
+docker ps -a
+docker images
 ```
-- 
+
